@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/maytinhdongian.js"></script>
+    <style>
+
+        td {
+
+            border: 1px solid grey;
+            margin: 5px;
+            text-align: center;
+        }
+        button {
+            border: none;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="4"><input type="text" id="display" ></td>
+
+        </tr>
+        <tr>
+            <td><button onclick="passValue1();"> 1</button></td>
+            <td><button onclick="passValue2()"> 2</button></td>
+            <td><button onclick="passValue3()"> 3</button></td>
+            <td><button onclick="passAdd()">+</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="passValue4()"> 4</button></td>
+            <td><button onclick="passValue5()"> 5</button></td>
+            <td><button onclick="passValue6()"> 6</button></td>
+            <td><button onclick="passSubtract()">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="passValue7()"> 7</button></td>
+            <td><button onclick="passValue8()"> 8</button></td>
+            <td><button onclick="passValue9()"> 9</button></td>
+            <td><button onclick="passMultiply()">x</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="deleteCharacter()">C</button></td>
+            <td><button onclick="passValue0()">0</button></td>
+            <td><button onclick="calculate();">=</button></td>
+            <td><button onclick="passDivide()">/</button></td>
+        </tr>
+    </table>
+
+</body>
+</html>
